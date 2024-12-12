@@ -3,6 +3,9 @@
     <h1>Remix template for Codux</h1>
 </div>
 
+### `Notice!`
+Changes on this repo may cause tests on Codux repo to fail. Please run full-e2e test before merging
+
 ### A Visual IDE for React Projects
 
 Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
@@ -27,3 +30,6 @@ Build the application in production mode into a folder named `dist`. This folder
 
 Start dev server.\
 Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
+
+### Notice!
+Changes on this repo may cause tests on Codux repo to fail. Please run full-e2e test before merging

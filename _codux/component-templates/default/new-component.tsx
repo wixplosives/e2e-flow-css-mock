@@ -1,4 +1,4 @@
-import styles from './new-component.module.scss';
+import styles from './new-component.module.css';
 import cx from 'classnames';
 
 export interface NewComponentProps {

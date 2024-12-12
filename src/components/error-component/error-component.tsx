@@ -1,6 +1,6 @@
 import { Link } from '@remix-run/react';
 import { ROUTES } from '~/router/config';
-import styles from './error-component.module.scss';
+import styles from './error-component.module.css';
 
 const unknownErrorTitle = 'Ooops, something went wrong';
 
@@ -12,7 +12,7 @@ export interface ErrorProps {
 export const ErrorComponent = ({ title, message }: ErrorProps) => {
     return (
         <div className={styles.root}>
-            <h1 className={styles.heading1}>{title ?? unknownErrorTitle}</h1>
+            <h1>{title ?? unknownErrorTitle}</h1>
             {message && <div>{message}</div>}
             <Link to={ROUTES.home.to()} className={styles.link}>
                 Navigate to Home Page

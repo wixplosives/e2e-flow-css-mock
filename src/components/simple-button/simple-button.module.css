@@ -1,0 +1,19 @@
+@import '../../../src/styles/theme.module.css';
+
+.root {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background-color: black;
+    color: gold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    &:active {
+        border: none;
+        filter: contrast(110%) brightness(110%);
+    }
+    font-size: 16px;
+    font-weight: 700;
+}
